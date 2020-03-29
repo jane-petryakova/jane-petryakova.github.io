@@ -1,0 +1,212 @@
+*{
+	margin-top:0px;
+	padding-top:0px;
+	
+}
+.silka{
+	margin:0px;
+	font-size:15px;
+	text-decoration: none;
+	color:black;	
+}
+.silka:hover{
+	color:green;
+}
+#head{
+	background-image: url(../image/fon.jpg);
+	height:100vh;
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin-top:0px;
+	width:100vw;
+}
+.menu{
+	background-color:white;
+	opacity:0.7;
+	position:fixed;
+	width:100%;
+	margin-top:0px;
+	padding-top:0px;
+	display:flex;
+	align-items: center ;
+	justify-content:space-around;
+}
+body{
+	margin:0px;
+	padding-top:0px;
+	font-family: 'Oswald';
+}
+.hone{
+	padding-top:40vh;
+	text-align:center;
+	font-size:40px;
+}
+#sectin{
+	width:100vw;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 3vh;
+}
+
+
+.spann{
+	font-family: 'Lobster';
+ 	font-size:50px;
+}
+.second_container{
+	width:70%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	margin:0px auto;
+}
+.second_iner{
+	width:calc(100% / 3);
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+
+}
+.works{
+	width:40vw;
+	height:50vh;
+	margin: 30px;
+	box-shadow: 0px 0px 70px rgb(0,0,95,0.3);
+}s
+.hh{
+	font-size:12px;
+}
+.worki{
+	width:100%;
+	text-align: center;
+	
+}
+#last{
+	text-align:center;
+}
+.small{
+	font-size:13px;
+}
+.marg{
+	margin:0vh 1vw;
+}
+.silka_kart{
+	display:flex;
+	width:15%;
+	margin:0px auto;
+	align-items:center;
+	justify-content:center;
+	margin-bottom:20px;
+}
+@media (max-width:1200px) {
+	.hone{
+		font-size:36px;
+	}
+	.spann{
+		font-size: 46px;
+	}
+	h2{
+		font-size:24px;
+	}
+	.works{
+		height:40vh;
+	}
+}
+@media (max-width:970px){
+	.hone{
+		font-size:30px;
+	}
+	.spann{
+		font-size:40px; 
+	}
+	h2{
+		font-size:20px;
+	}
+	.works{
+		height:35vh;
+	}
+	
+}
+@media (max-width:768px){
+	.hone{
+		font-size:25px;
+	}
+	.spann{
+		font-size:35px;
+	}
+	h2{
+		font-size:18px;
+	}
+	.hh{
+		font-size:10px;
+	}
+	h3{
+		font-size:12px;
+	}
+	.icon{
+		width:80px;
+		height:80px;
+	}
+	.znak{
+		width:80px;
+		height:80px;
+	}
+	.silka{
+		font-size:13px;
+	}
+	.works{
+		width:40vw;
+		height:30vh;
+	}
+}
+@media (max-width:600px) {
+	.works{
+		width:60vw;
+	}
+}
+@media (max-width:480px){
+	.hone{
+		font-size:20px;
+	}
+	.spann{
+		font-size:30px;
+	}
+	h2{
+		font-size:15px;
+	}
+	.znak{
+		width:60px;
+		height:60px;
+	}
+	.silka{
+		font-size:11px;
+	}
+	.works{
+		width:60vw;
+		height:25vh;
+	}
+}
+@media (max-width:425px) {
+	.works{
+		height:25vh;
+	}
+	.small{
+	font-size:11px;
+	}
+}
+@media (max-width:320px) {
+	.hh{
+		font-size:9px;
+	}
+	h3{
+		font-size:11px;
+	}
+	.second_container{
+		width:80%; 
+	}
+	.icon{
+		width:60px;
+		height:60px;
+	}
+}
