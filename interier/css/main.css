@@ -38,7 +38,8 @@ nav{
 	
 }
 
-.tel{text-decoration: none;
+.tel{
+	text-decoration: none;
 	color: black;
 	font-size: 20px;
 	font-weight: 700;
@@ -73,7 +74,8 @@ h1{
 @media (min-width: 1024px) {
 .nav_link:hover {
 	color: #6ba6a5;
-}}
+}
+}
 
 
 @media (max-width: 1200px) {
@@ -196,10 +198,12 @@ h1{
 	
 	.tel {
 		display: none;
+
 	}
 	h1 {	
 		font-size: 30px;
 	}
+
 	.subtext {
 		width: 40vw;
 	}
