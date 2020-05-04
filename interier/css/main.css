@@ -142,7 +142,7 @@ h1{
 	    transition: all 0.8s ease 0s;
 	    z-index: 2;
 	    align-items: center;
-	    opacity: 0.9;
+	    
 	}
 	.nav_menu.active {
 		top: 0;
