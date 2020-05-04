@@ -79,120 +79,38 @@ h1{
 @media (max-width: 1200px) {
 
 	header{
-	
-	background-position: 100% 50%;
-	background-size: 55vw 70vh;
-}
+		background-position: 100% 50%;
+		background-size: 55vw 70vh;
+	}
 	.logo {
-			font-size: 20px;
-		}
+		font-size: 20px;
+	}
 	nav a {
 		font-size: 14px;
 	}
-	
 	.tel {
 		font-size: 16px;
 	}
 	.burger {
-			display: none;
+		display: none;
 	}
-
 	h1 {
 		font-size: 36px;
 	}
-
 	.subtext {
 		font-size: 14px;
 	}
 }
 	
 
-
 @media (max-width: 770px) {
-	.burger {
-	display: block;
-	position: relative;
-	width: 30px;
-	height: 15px;
-	z-index: 5;
-
-}
-.burger:before, .burger:after {
-	content: "";
-	position: absolute;
-	background-color: #000;
-	width: 100%;
-	height: 2px;
-	left:0;
-	z-index: 5;
-	transition: all 0.3s ease 0s;
-}
-.burger:before {
- top: 0;
-}
-.burger:after {
-bottom: 0;
-}
-.burger.active:before  {
-	transform: rotate(45deg);
-	top: 6.5px;
-	transition: 
-}
-.burger.active:after {
-	transform: rotate(-45deg);
-	bottom: 6.5px;
-}
-.burger.active span {
-	transform: scale(0);
-}
-
-.burger span {
-	background-color: #000;
-	width: 100%;
-	height: 2px;
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 6.5px;
-	transition: all 0.3s ease 0s;
-}
-
 	header{
-	padding-top: 0;
-	background-position: 120% 60%;
-	background-size: 65vw auto;
-}
-article{
-	width: 75%;
+		padding-top: 0;
+		background-position: 120% 60%;
+		background-size: 65vw auto;
 	}
-.subtext {
-		width: 40vw
-	}
-	h1 {	
-		font-size: 30px;
-	}
-	.tel {
-		display: none;
-	}
-	.nav_menu {
-		position: absolute;
-	    right: 0;
-	    width: 150px;
-	    height: 50%;
-	    background-color: #fff;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: space-around;
-	    padding: 12vh 5vw 0px 0px;
-	    box-sizing: border-box;
-	    top: -100%;
-	    transition: all 0.8s ease 0s;
-	    z-index: 2;
-	    align-items: flex-end;
-	}
-	.nav_menu.active {
-		top: 0;
-		transition: all 0.8s ease 0s;
+	article{
+		width: 75%;
 	}
 	.head_cont:before {
 		content: "";
@@ -209,6 +127,83 @@ article{
 		left: 0;
 		z-index: 4;
 	}
+	.nav_menu {
+		position: absolute;
+	    right: 0;
+	    width: 100vw;
+	    height: 50%;
+	    background-color: #fff;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;
+	    padding: 12vh 5vw 0px 0px;
+	    box-sizing: border-box;
+	    top: -100%;
+	    transition: all 0.8s ease 0s;
+	    z-index: 2;
+	    align-items: center;
+	    opacity: 0.9
+	}
+	.nav_menu.active {
+		top: 0;
+		transition: all 0.8s ease 0s;
+	}
+	.burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 15px;
+		z-index: 5;
+	}
+	.burger:before, .burger:after {
+		content: "";
+		position: absolute;
+		background-color: #000;
+		width: 100%;
+		height: 2px;
+		left:0;
+		z-index: 5;
+		transition: all 0.3s ease 0s;
+	}
+	.burger:before {
+	 	top: 0;
+	}
+	.burger:after {
+		bottom: 0;
+	}
+	.burger.active:before  {
+		transform: rotate(45deg);
+		top: 6.5px;
+		transition: 
+	}
+	.burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 6.5px;
+	}
+	.burger span {
+		background-color: #000;
+		width: 100%;
+		height: 2px;
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 6.5px;
+		transition: all 0.3s ease 0s;
+	}
+	.burger.active span {
+		transform: scale(0);
+	}
+	
+	.tel {
+		display: none;
+	}
+	h1 {	
+		font-size: 30px;
+	}
+	.subtext {
+		width: 40vw;
+	}
+	
 }
 
 
